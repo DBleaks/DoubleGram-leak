@@ -1,0 +1,47 @@
+[general_settings]
+log = Disabled
+analyze_account = /
+between_autoinvite_pause = 1-3 sec (random)
+between_invite_pause = 1-3 sec (random)
+
+[adding_settings]
+between_autoinvite_pause = 1-3 sec (random)
+auto_add_at_start = Disabled
+if_account_out = Enabled
+change_account_n_requests = 20 requests
+change_account_pause = 1-5 sec (random)
+consecutive_error_breaker = 30 errors
+start_point_members_file = Where did it leave off
+add_using = Username | User ID
+between_adding_pause = 1-3 sec (random)
+casual_pause_times = 3-30 sec (random)
+exclude_bot = Enabled
+exclude_admin = Enabled
+photo_forcing = Enabled
+filter_last_seen = No restrictions
+filter_dc = No restrictions
+filter_phone_number = Disabled
+stop_max_adding = No limit
+continuous_adding = Disabled
+ca_ripet = Endlessly
+ca_pause = No break
+premium_filter = Allow Both Premium/Non premium accounts
+
+[scraping_settings]
+deep_search_vowels = Enabled
+deep_search_consonants_1 = Enabled
+deep_search_consonants_2 = Disabled
+deep_search_accented = Enabled
+deep_search_symbols_1 = Disabled
+deep_search_symbols_2 = Disabled
+deep_search_numbers = Enabled
+deep_search_emoji_1 = Disabled
+deep_search_emoji_2 = Disabled
+deep_search_russian_1 = Disabled
+deep_search_russian_2 = Disabled
+deep_search_russian_3 = Disabled
+stop_deep_search_percentage = 50
+stop_deep_search_percentage_status = Enabled
+deep_search_pause = 0.50 sec
+blacklist_status = Disabled
+
